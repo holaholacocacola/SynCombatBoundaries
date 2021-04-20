@@ -49,7 +49,7 @@ namespace SynCombatBoundaries
                 }
                 catch (Exception e)
                 {
-                    throw RecordException.Factory("Error processing encounter zone record", ez, e);
+                    throw RecordException.Create("Error processing encounter zone record", ez, e);
                 }
             }
 
@@ -95,7 +95,7 @@ namespace SynCombatBoundaries
                 }
                 catch (Exception e)
                 {
-                    throw RecordException.Factory("Error processing race record", race, e);
+                    throw RecordException.Create("Error processing race record", race, e);
                 }
             }
         }
