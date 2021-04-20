@@ -1,8 +1,8 @@
 {
   "Nickname": "SynCombatBoundaries",
-  "Visibility": "Exclude",
-  "OneLineDescription": "",
-  "LongDescription": "",
+  "Visibility": "Visible",
+  "OneLineDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
+  "LongDescription": "Synthesis patcher to remove combat boundaries and allow npcs to chase you through water",
   "PreferredAutoVersioning": "Default",
   "RequiredMods": []
 }
