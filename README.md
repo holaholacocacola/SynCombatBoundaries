@@ -12,6 +12,9 @@ Requirements:
 ### Settings
 ##### Settings can be configured by in the settings tab in the synthesis gui. Default settings are identical to the original mod.
 
+Settings work based on the flags below that map to skyrim actorType keywords. If an actor has a setting that is not enabled, it will be skipped over. 
+e.g Draugr have ActorTypeUndead and ActorTypeCreature. If you enable both, then draugr will be enabled. If you disable undead, draugr will be skipped while any creature without the undead keyword will be processed.
+
 -  AllowNpcs - `bool`: Allow Npcs to swim in combat
 -  AllowCreatures - `bool`: Allow Creatures to swim in combat
 -  AllowVampires - `bool`: Allow Vampires to swim in combat
